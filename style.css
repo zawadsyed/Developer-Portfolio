@@ -1,4 +1,60 @@
-body{
+body {
     font-family: 'Outfit', sans-serif;
-    font-size: 50px;
+}
+
+section {
+    margin-bottom: 120px;
+}
+
+h1 {
+    font-size: 64px;
+
+}
+
+h2 {
+    font-size: 56px;
+}
+
+p {
+    color: 475569;
+    line-height: 160%;
+}
+
+.text-color {
+    color: #0095ff;
+}
+
+section {
+    display: flex;
+}
+
+.hero-banner {
+    padding: 120px;
+}
+
+.dream-big {
+    background-image: url(Images/bg.png);
+    background-repeat: no-repeat;
+    padding: 120px;
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 8%;
+}
+
+.link-button {
+    background-image: linear-gradient(180deg, #28D1FF 0%, #0069B5 100%);
+    text-decoration: none;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+}
+
+.half-width img {
+    width: 70%;
+}
+
+.half-width p {
+    margin-bottom: 48px;
 }
